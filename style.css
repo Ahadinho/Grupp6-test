@@ -1,20 +1,53 @@
 body{
     margin: 0;
+    background: url(zj4we7fjulia1.jpg) center / 100% no-repeat fixed;
+}
+footer a {
+
+    display: flex;
+    background-color: rgba(0, 0, 56, 0.568);
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }
 .mobile {
     width: 390px;
     min-height: 844px;
-    background-color: rgb(252, 252, 252);
     margin: auto;
     text-align: center;
 }
+img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 300%;
+}
 h1 {
-    padding-top: 100px;
+    margin-top: 300px;
+    background-color: rgba(0, 0, 56, 0.568);
+    color: white;
+    font-size: 40px;
+    top: 200px;
+    border-radius: 20px;
 }
 h2 {
-    background-color: rgb(180, 180, 180);
+    color: white;
+    border-radius: 20px;
+    margin-top: 40px;
 }
 input {
+
     width: 70%;
     margin: 10px;
+}
+p {
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    color:white;
+    left: 0px;
+    bottom: 0px;
+
 }
