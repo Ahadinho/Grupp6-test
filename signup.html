@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 3-Page Navigation Bar -->
+    <nav style="display: flex; gap: 20px; justify-content: center; padding: 15px; background: rgba(0,0,0,0.1);">
+        <a href="index.html" style="text-decoration: none; font-weight: bold; color: #e6e6e6;">Home</a>
+        <a href="contact.html" style="text-decoration: none; font-weight: bold; color: #e6e6e6;">Contact Us</a>
+        <a href="signup.html" style="text-decoration: none; font-weight: bold; color: #e6e6e6;">Sign Up</a>
+    </nav>
+
+    <!-- Centered Sign Up Form Box -->
+    <main class="mobile" style="margin-top: 40px;">
+        <h1>Create Account</h1>
+        <h2>Sign Up</h2>
+        
+        <form style="display: flex; flex-direction: column; gap: 15px; align-items: center; text-align: center; width: 100%; max-width: 100%; box-sizing: border-box;">
+            
+            <div style="width: 100%; box-sizing: border-box;">
+                <label for="new-username" style="font-weight: bold; font-size: 0.9rem; display: block; margin-bottom: 5px;">Användarnamn:</label>
+                <input type="text" id="new-username" style="width: 100%; max-width: 280px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; display: inline-block;" required>
+            </div>
+            
+            <div style="width: 100%; box-sizing: border-box;">
+                <label for="new-email" style="font-weight: bold; font-size: 0.9rem; display: block; margin-bottom: 5px;">E-post:</label>
+                <input type="email" id="new-email" style="width: 100%; max-width: 280px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; display: inline-block;" required>
+            </div>
+            
+            <div style="width: 100%; box-sizing: border-box;">
+                <label for="new-password" style="font-weight: bold; font-size: 0.9rem; display: block; margin-bottom: 5px;">Lösenord:</label>
+                <input type="password" id="new-password" style="width: 100%; max-width: 280px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; display: inline-block;" required>
+            </div>
+            
+            <button type="submit" style="width: 100%; max-width: 280px; padding: 12px; background-color: #333; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; font-size: 1rem; margin-top: 5px;">Registrera</button>
+        </form>
+    </main>
+
+    <!-- Socials Footer -->
+    <footer>
+        <hr>
+        <div style="display: flex; gap: 20px; justify-content: center; padding: 20px 0;">
+            <a href="https://twitter.com" target="_blank" style="color: #1DA1F2;">[Twitter]</a>
+            <a href="https://facebook.com" target="_blank" style="color: #1877F2;">[Facebook]</a>
+            <a href="https://youtube.com" target="_blank" style="color: #FF0000;">[YouTube]</a>
+            <a href="https://instagram.com" target="_blank" style="color: #E4405F;">[Instagram]</a>
+        </div>
+    </footer>
+
+</body>
+</html>
