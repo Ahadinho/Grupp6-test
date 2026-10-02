@@ -49,5 +49,7 @@ p {
     color:white;
     left: 0px;
     bottom: 0px;
-
+}
+nav {
+    font-size: 20px;
 }
