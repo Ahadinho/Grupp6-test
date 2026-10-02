@@ -1,52 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spel</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="images.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation bar to switch between pages -->
-<nav style="display: flex; gap: 15px; justify-content: center; padding: 15px; background: rgba(0,0,0,0.1);">
-    <a href="index.html" style="text-decoration: none; font-weight: bold; color: #e6e6e6;">Home</a>
-    <a href="contact.html" style="text-decoration: none; font-weight: bold; color: #e6e6e6;">Contact Us</a>
-    <a href="signup.html"style="text-decoration: none; font-weight: bold; color: #e6e6e6;">Sign up</a>
-</nav>
 <div class="mobile">
-    <h1>Welcome</h1>
-    <h2>Sign In</h2>
 
-    <form>
-         <input type="text" placeholder="user/mail">
-    <input type="password" placeholder="password">
-    <nav>  Don't have an account? 
-    <a href="signup.html" style="color: #007bff; text-decoration: none; font-weight: bold;">Sign Up</a></nav>
-    
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="signup.html">Sign up</a>
+    </nav>
 
-    <a href="contact.html" style="color: #007bff; text-decoration: none; font-weight: bold;"></a>
-</p>
-<p>
-    Öppettider
-    <br>
-    Mån-Fre: 08:00-22:00
-    <br>
-    Lör-Sön: Stängt
-</p>
- 
+    <main>
+        <h1>Welcome</h1>
+        <h2>Sign In</h2>
+
+        <form>
+            <input type="text" placeholder="user/mail">
+            <input type="password" placeholder="password">
+        </form>
+
+        <div class="hint">
+            Don't have an account?
+            <a href="signup.html">Sign up</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="hours">
+            Öppettider<br>
+            Mån-Fre: 08:00-22:00<br>
+            Lör-Sön: Stängt
+        </div>
+
+        <div class="social">
+            <a href="https://twitter.com" target="_blank" style="color:#1DA1F2"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://facebook.com" target="_blank" style="color:#1877F2"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://youtube.com" target="_blank" style="color:#FF0000"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://instagram.com" target="_blank" style="color:#E4405F"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
 </div>
-
-<footer>
-    <hr>
-    <div style="display: flex; gap: 20px; justify-content: center; font-size: 24px; padding: 20px 0;">
-        <a href="https://twitter.com" target="_blank" style="color: #1DA1F2;"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="https://facebook.com" target="_blank" style="color: #1877F2;"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://youtube.com" target="_blank" style="color: #FF0000;"><i class="fa-brands fa-youtube"></i></a>
-        <a href="https://instagram.com" target="_blank" style="color: #E4405F;"><i class="fa-brands fa-instagram"></i></a>
-    </div>
-</footer>
-    
 </body>
 </html>
