@@ -11,3 +11,10 @@ body{
 h1 {
     padding-top: 100px;
 }
+h2 {
+    background-color: rgb(180, 180, 180);
+}
+input {
+    width: 70%;
+    margin: 10px;
+}
